@@ -1,0 +1,106 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+
+# Virtual Environment
+
+# =========================
+
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+.env
+.env.*
+*.env
+
+# =========================
+
+# Django
+
+# =========================
+
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Django migrations cache (keep migrations folder itself)
+
+**/**pycache**/
+
+# =========================
+
+# PostgreSQL
+
+# =========================
+
+*.sql
+*.dump
+
+# =========================
+
+# Static files (if collected)
+
+# =========================
+
+staticfiles/
+
+# =========================
+
+# Cache & Coverage
+
+# =========================
+
+.cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# =========================
+
+# IDEs and Editors
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+__pycache__/
+*.pyc
+.env
